@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+
+}
+main{
+    display: block;
+}
+header, footer {
+    /*border-style: blue*/
+    border-style: solid;
+    border-color: #880015;
+}
+.contenedor-principal/*esto es asignacion de clase*/{
+    border-style: solid;
+    border-color: #FFAEC9;
+}
+main {
+    border-style: solid;
+    border-color:green; 
+    border-width: 1px;
+}dis
+aside section .mensaje-chat{
+    border-style: solid;
+    border-color:brown; 
+    border-width: 1px;   
+}
+
+.comentarios article{
+    border-style: solid;
+    border-color:pink; 
+    border-width: 1px;   
+}
+ .lista-menu{
+     display: inline-block;
+     margin-right: 25px;
+ }
+ .contenedor-principal{
+     display: grid;
+    grid-template-columns: 65% 35%;
+ }
+ .contenedor-principal main{
+    display: grid;
+    justify-content: center;
+ }
+.comentarios{
+    display: grid;
+    grid-gap:10 px;
+}
+/*hacer lo mismo con el aside*/
